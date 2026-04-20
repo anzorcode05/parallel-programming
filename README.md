@@ -12,20 +12,19 @@
 
 ### Структура проекта
 
-
-  parallel-programming/
-├── main.cpp # Исходный код программы на C++
-├── check_result.py # Скрипт верификации через NumPy
-├── run_experiments.py # Скрипт автоматического тестирования
-├── graph.py # Скрипт построения графиков
-├── stats.csv # Результаты экспериментов
-├── time_graph.png # График времени вычислений
-├── operations_graph.png # График объёма задачи
+ parallel-programming/
+├── main.cpp                 # Исходный код программы на C++
+├── check_result.py          # Скрипт верификации через NumPy
+├── run_experiments.py       # Скрипт автоматического тестирования
+├── graph.py                 # Скрипт построения графиков
+├── stats.csv                # Результаты экспериментов
+├── time_graph.png           # График времени вычислений
+├── operations_graph.png     # График объёма задачи
 ├── data/
-│ ├── matrixA.txt # Входная матрица A
-│ ├── matrixB.txt # Входная матрица B
-│ └── matrixC.txt # Результирующая матрица C = A × B
-└── README.md 
+│   ├── matrixA.txt          # Входная матрица A
+│   ├── matrixB.txt          # Входная матрица B
+│   └── matrixC.txt          # Результирующая матрица C = A × B
+└── README.md
 
 ### Описание файлов
 
