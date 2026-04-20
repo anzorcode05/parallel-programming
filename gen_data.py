@@ -6,7 +6,7 @@ import os
 def create_random_matrix(n, filepath):
     """Создаёт случайную квадратную матрицу и сохраняет в файл"""
 
-    # Фиксируем seed, чтобы твои данные отличались от его
+
     random.seed(2025 + n)
 
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
