@@ -21,7 +21,6 @@
 | `data/` | Рабочая папка для хранения матриц |
 | `data/matrixA.txt` | Входная матрица A |
 | `data/matrixB.txt` | Входная матрица B |
-| `data/matrixC.txt` | Результирующая матрица C = A × B |
 | `cuda_time_graph.png` | График зависимости времени от размера блока |
 | `cuda_speedup_graph.png` | График ускорения (Speedup) |
 | `README.md` | Этот файл с отчётом |
@@ -168,18 +167,4 @@ $$S = \frac{T_{8}}{T_{block}}$$
 
 ---
 
-## Инструкция по запуску
 
-### 1. Установка зависимостей
-
-#### Для Windows
-Требуется установка **NVIDIA CUDA Toolkit** и **Microsoft Visual Studio Build Tools**.
-
-1. Скачайте CUDA Toolkit с сайта NVIDIA: https://developer.nvidia.com/cuda-toolkit-archive
-2. Установите Visual Studio Build Tools с компонентом "C++ build tools"
-3. Убедитесь, что команда `nvcc --version` работает в терминале
-
-### 2. Компиляция программы
-
-```bash
-nvcc -O2 -std=c++11 -o main_cuda.exe main_cuda.cu
